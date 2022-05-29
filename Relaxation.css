@@ -1,0 +1,549 @@
+        .onehunderd_per{
+            float: left;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .logo{
+            width: 5%;
+            float: left;
+        }
+        @keyframes move{
+            from{
+                transform: rotate(0deg);
+        }
+            to{
+                transform: rotate(-360deg);
+        }
+    }
+        .home{
+            text-decoration: none;
+            color: black;
+        }
+        .padding-left{
+            padding-left: 50px;
+        }
+        .center{
+            text-decoration: none;
+            margin: 0;
+            color: black;
+        }
+        .padding-left2{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .link{
+            text-decoration: none;
+            padding-left: 45px;
+            color: black;
+        }
+        .nav{
+            list-style-type: none;
+            display: inline-block;
+            float: left;
+        }
+        .list{
+            display: inline-block;
+            padding-right: 10px;
+            color: black;
+            float: left;
+        }
+        .list:hover, .link:hover, .home:hover{
+            text-shadow: -.1em -.1em .1em deepskyblue;
+            color: white;
+        }
+        .bookmark_style{
+            text-decoration: none;
+            font-size: 0.7em;
+            color: black;
+        }
+        .dropdown:hover .table_dropdown{
+            display: block;
+            position: absolute;
+            z-index: 5;
+        }
+        .list:hover{
+            font-size: larger;
+            transition-duration: 1s;
+        }
+        .table_dropdown{
+            display: none;
+            background-color: #F5C282;
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+        .button{
+            width: 80px;
+            height: 20px;
+        }
+        .dropdown{
+            display: inline-block;
+            float: left;
+            position: relative;
+        }
+        .image{
+            width: 200px;
+            padding-top: 20px;
+        }
+        body{
+            background-image: linear-gradient(to bottom right,#03989E,white,#F5C282);
+            background-attachment: fixed;
+            font-family: Comic Sans MS;
+        }
+        .logo:hover{
+            transform: rotate(-360deg);
+            transition-duration: 2s;
+        }
+        .eighty_per{
+            width: 80%;
+            float: left;
+            display: inline-block;
+            background-color: white;
+        }
+        .container{
+            display: inline-block;
+            clear: left;
+            position: relative;
+            width: 100%;
+            height: 550px;
+        }
+        .outline1{
+            display: inline-block;
+            position: relative;
+            border: 2px solid black;
+            width: 85%;
+            height: 450px;
+            z-index:2;
+            right: 0;
+            left: 5%;
+        }
+        .outline{
+            display: inline-block;
+            left: 10%;
+            top: -9%;
+            position: absolute;
+            border: 2px solid black;
+            width: 75%;
+            height: 550px;
+            z-index: 3;
+        }
+        .mainimg{
+            display: inline-block;
+            position: absolute;
+            width: 86.5%;
+            height: 450px;
+            z-index: 1;
+            right: 8.1%;
+            top: 0;
+        }
+        .quote{
+            display: inline-block;
+            position: absolute;
+            width: 75%;
+            bottom: 0;
+            left: 10%;
+            top: 60%;
+            height: 120px;
+            z-index: 4;
+            text-align: center;
+            font-size: xx-large;
+            font-family: cursive;
+            color: transparent;
+        }
+        .quote:hover{
+            color: black;
+            background-color: sandybrown;
+            opacity: 0.5;
+        }
+        .outline:hover,.outline1:hover{
+            box-shadow: 0 0 20px sandybrown;
+        }
+        .outline1:hover + .outline{
+            box-shadow: 0 0 20px sandybrown;
+        }
+        .container, .mainimg, .outline, .outline1, .quote{
+                box-sizing: border-box;
+        }
+        .title{
+            color: black;
+            -webkit-text-fill-color: white;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+            text-align: center;
+        }
+        .twenty_div{
+            padding: 5px;
+        }
+        .twenty_per{
+            width: 18%;
+            background-color: white;
+            display: inline-block;
+            margin-left: 15px;
+            position: fixed;
+            overflow-y: scroll;
+            height: 300px;
+            right: 0;
+            top: 80px;            
+        }
+        .eighty_img{
+            max-width: 80%;
+            display: block;
+            padding-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+        }
+        .eighty_div_img{
+            display: block;
+            max-width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .twenty_div_img{
+            display: block;
+            max-width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .text_ident{
+            text-indent: 60px;
+        }
+        .intro{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 50px;
+        }
+        .get_peace{
+            width: 45%;
+            padding-left: 10px;
+            float: left;
+            height: 525px;
+        }
+        .nutrient_dense_food{
+            width: 52%;
+            padding-left: 10px;
+            float: left;
+            height: 525px;
+        }
+        .Have_a_tea{
+            float: left;
+            width: 45%;
+            padding-left: 10px;
+            height: 509px;
+        }
+        .nature_sound{
+            float: left;
+            width: 52%;
+            padding-left: 10px;
+            height: 510px;
+        }
+        .Practice_a_new_hobby{
+            width: 45%;
+            float: left;
+            padding-left: 10px;
+        }
+        .stress_free_zone{
+            float: left;
+            width: 52%;
+            padding-left: 10px;
+            height: 651px;
+        }
+        .Keep_a_journal{
+            width: 45%;
+            float: left;
+            padding-left: 10px;
+        }
+        .Spend_more-time{
+            width: 52%;
+            float: left;
+            padding-left: 10px;
+            height: 525px;
+        }
+        #Spend_more-time{
+            width: 450px;
+            height: 260px;
+        }
+        .Go_fishing{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .wander_wild{
+            width: 90%;
+            padding-left: 50px;
+        }
+        .important{
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .better_sleep{
+            width: 90%;
+            padding-left: 50px;
+        }
+        .Great_Outdoors{
+            width: 90%;
+            padding-left: 50px;
+        }
+        .take_a_break{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Recharge_your_Focus{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;            
+        }
+        .footer{
+            display: inline-block;
+            width: 100%;
+            border: 1px solid black;
+            bottom: 0;
+            box-sizing: border-box;
+            margin-top: 10px;
+            background-color: white;
+        }
+        .footer_div1{
+            width: 10%;
+            box-sizing: border-box;
+            float: left;
+        }
+        #footer{
+            list-style-type: none;
+        }
+        #footer_img1{
+            width: 25px;
+            padding-left: 8px;
+        }
+        #footer_img2{
+            width: 25px;
+            padding-left: 8px;
+        }
+        #footer_img3{
+            width: 30px;
+            padding-left: 5px;
+        }
+        #footer_img4{
+            width: 40px;
+        }
+        .footer_div2{
+            width: 69%;
+            float: left;
+            height: 156px;
+        }
+        #input{
+        margin-left: 50px;
+        margin-top: 20px;
+        background-color: #F5C282;
+        border-radius: 5px;
+        color: black;
+        }
+        #submit{
+            margin-left: 110px;
+            background-color: #03989E;
+            border: 0px solid black;
+        }
+        .feedback{
+            font-size: 0.7em;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .footer_div3{
+            width: 20%;
+            float: left;
+            height: 156px;
+        }
+        .copy{
+            text-align: center;
+        }
+        @media only screen and (max-width: 1200px){
+            .gym{
+                height: 492px;
+            }
+            .stress_free_zone{
+                height: 680px;
+            }
+            #input{
+                width: 80px;
+                margin-left: 60px;
+            }
+            #submit{
+                margin-left: 75px;
+                margin-top: 5px;
+            }
+        }
+        @media only screen and (max-width: 1000px){
+            .image{
+                width: 100px;
+            }
+            .get_peace{
+                width: 90%;
+                padding-left: 30px;
+                height: 500px;
+            }
+            .nutrient_dense_food{
+                width: 90%;
+                padding-left: 30px;
+            }
+            .Have_a_tea{
+                width: 90%;
+                padding-left: 30px;                
+            }
+            .nature_sound{
+                width: 90%;
+                padding-left: 30px;                
+            }
+            .Practice_a_new_hobby{
+                width: 90%;
+                padding-left: 30px;                  
+            }
+            .stress_free_zone{
+                width: 90%;
+                padding-left: 30px;                   
+            }
+            .Keep_a_journal{
+                width: 90%;
+                padding-left: 30px;                  
+            }
+            .Spend_more-time{
+                width: 90%;
+                padding-left: 30px;
+            }
+            .better_sleep{
+                padding-left: 40px;
+            }
+            .Great_Outdoors{
+                width: 90%;
+                padding-left: 30px;
+            }
+            .footer_div1{
+                width: 15%;
+            }
+            .footer_div2{
+                width: 63%;
+            }
+            .footer_div3{
+                width: 20%;
+            }
+            #input{
+                width: 80px;
+                margin-left: 30px;
+            }
+            #submit{
+                margin-left: 45px;
+                margin-top: 5px;
+            }
+        }
+        @media only screen and (max-width: 700px){
+            .onehunderd_per{
+                width: 100%;
+            }
+            .logo{
+                width: 10%;
+            }
+            .nav{
+                width: 90%;
+                padding: 0;
+                margin-top: 3%;
+            }
+            .table_dropdown{
+                width: 180%;
+            }
+            .image{
+                width: 115px;
+            }
+            .padding-left, .padding-left2{
+                padding-left: 10px;
+            }
+            .twenty_per{
+                width: 26%;
+                position: fixed;
+                overflow-y: scroll;
+                height: 300px;
+                right: 0;
+                top: 50px;
+            }
+            .twenty_per2{
+                display: none;
+            }
+            .eighty_per{
+                width: 70%;
+                float: left;
+            }
+            body{
+                font-size: 13px;
+            }
+            .get_peace{
+                width: 90%;
+                height: 380px;
+                padding-left: 15px;
+            }
+            .nutrient_dense_food{
+                width: 90%;
+                height: 445px;
+                padding-left: 15px;
+            }
+            .Have_a_tea{
+                width: 90%;
+                height: 400px;
+                padding-left: 15px;
+            }
+            .nature_sound{
+                width: 90%;
+                height: 420px;
+                padding-left: 15px;
+            }
+            .Practice_a_new_hobby{
+                width: 90%;
+                padding-left: 15px;
+            }
+            .stress_free_zone{
+                width: 90%;
+                height: 510px;
+                padding-left: 15px;
+            }
+            .Keep_a_journal{
+                width: 90%;
+                padding-left: 15px;
+            }
+            .Spend_more-time{
+                width: 90%;
+                height: 535px;
+                padding-left: 15px;
+            }
+            .wander_wild{
+                width: 90%;
+                padding-left: 20px;
+            }
+            .better_sleep{
+                width: 90%;
+                padding-left: 20px;
+            }
+            .Great_Outdoors{
+                width: 90%;
+                padding-left: 15px;
+            }
+            .footer{
+                height: 180px;
+            }
+            .footer_div1{
+                width: 15%;
+            }
+            .footer_div2{
+                width: 53%;
+                padding-left: 40px;
+                }
+            .footer_div3{
+                display: none;
+                }
+            #input{
+                width: 80px;
+                margin-left: 10px;
+            }
+            #submit{
+                margin-left: 30px;
+                margin-top: 5px;
+            }
+        }
